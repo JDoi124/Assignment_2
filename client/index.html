@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FavO.RandO.PixO</title>
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<div id="homelink"></div>
+
+<header class="outer page-header">
+		<div class="container">
+		
+
+			<a href="index.html#homelink" class="smoothScroll">
+			<img src="../images/Logo-2.png" alt=" " class="page-logo pull-left"/>
+			</a>
+
+			
+			<nav class="pull-right">
+				<ul class="delist menu page-menu">
+					<li>
+						<a href="index.html#gallerylink" class="smoothScroll">Gallery</a>
+					</li>
+					<li>
+						<a href="index.html#aboutlink" class="smoothScroll">About Us</a>
+					</li>					
+				</ul>
+				
+			</nav>
+					
+		</div>
+	</header>
+
+
+	<div id="overlay"></div>
+	<main>
+			<!-- POPUP-->
+		<div id="modal">
+			<h2>Add a Submission</h2>
+			<form method="POST" enctype="multipart/form-data" action="/addData" id="form">
+			<label for="title">Random Title</label>
+			<input type="text" name="title" placeholder="A Random Title" required>
+			<label for="quote">Random Text</label>
+			<input type="text" name="quote" placeholder="Write anything random" required>
+			<input type="file" name="image">
+			<button id="submit" >Submit!</button>
+			<!-- <input type="submit" value="submit" id="submit"> -->
+		</form>
+		</div>
+
+  <div class="welcome"> 
+  <h2> Welcome to </h2>
+
+<h1 class="jumpy">
+	<span class="letter">F</span>
+	<span class="letter">a</span>
+	<span class="letter">v</span>
+	<span class="letter">O.</span>
+	<span class="letter">R</span>
+	<span class="letter">a</span>
+	<span class="letter">n</span>
+	<span class="letter">d</span>
+	<span class="letter">O.</span>
+	<span class="letter">P</span>
+	<span class="letter">i</span>
+	<span class="letter">x</span>
+	<span class="letter">O.</span>
+</h1>
+
+
+  </div>
+
+ <div id="gallerylink"> </div>
+
+<div class="infogallery">
+	<h1> Gallery </h1>
+	<p> Here you can add anything that comes to your mind! Your Submissions are anonymous unless you are entitled to the picture or work then you may provide info.</p>
+</div>
+
+<br>
+
+   <div class="clearfix"></div>
+
+
+		<div id="gallery"></div>
+
+		<!-- BUTTON -->
+		<a href="#"  id="add" >+</a>
+		<p id="hintclick"> Click the box to submit a file of your choice! </p>
+		<p><a href="" download="data.json" id="download">Download all</a></p>
+
+	
+	</main>
+
+<div id="aboutlink"> </div>
+
+<div class="about"> 
+	<h1> About Us </h1>
+<p> We are a Free Collaborative Website called Fav-O.Rand-O.Pix-O, which is a fancy name derived from each seperate words; Favourite, Random, Pictures. Here on this website you are enabled and encouraged to; share and upload any favourite pictures, such as your favourite Artworks, Photos, Memes, or any other files that displays a picture, as long as they are explicit appropiate content to share among users. You are also allowed to browse other pictures users have submitted and use freely copy and use without any worries about copyright issue.</p>
+<p> So, what are you waiting for?! get on uploading and share your favourite pictures to encourage all other users to copy and share other files! </p>
+</div>
+
+
+  <footer>
+    <p> 	&copy; FavO.RandO.PixO. </p>
+    </footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+
+  </div>
+</body>	
+</html>
